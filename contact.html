@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warsha | Coming Soon...</title>
+    <link rel="icon" href="assets/ICON.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/ICON.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://kit.fontawesome.com/9a8149877d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="navbar1">
+        <div class="logosmal-container">
+            <img src="assets/logosmal1.svg" class="logosmal1">
+            <img src="assets/wrshablack.svg" class="logosmal2">
+        </div>
+        <nav class="navlist">
+            <ul id="menuList">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="app.html">Our App</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+        <div class="bx bx-menu" id="menu-icon" onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></div>
+    </div>
+    <div id="contact-us">
+        <div class="contact">
+            <div class="contactus">
+                <div class="formulaire">
+                    <div class="row3">
+                        <div class="text4">
+                            <h2>
+                                We would love to hear from you
+                            </h2>
+                            <p>We value your feedback and inquiries. Please feel
+                                free to reach out to us using the contact form.
+                                Our dedicated team is here to assist you and
+                                ensure the best experience with Warsha.</p>
+                            <h3>EMAIL US!</h3>
+                            <div class="socialmedias">
+                                <div class="mail">
+                                    <a href="mailto:warsha.algeria@gmail.com" target="_blank">
+                                        <i class="fa-solid fa-envelope">
+                                            <div class="mail"></div>
+                                        </i>
+                                        <div class="username">contact@warsha-dz.com</div>
+                                        <div class="border"></div>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="border-line1"></div>
+                        <img src="assets/line.svg" alt>
+                        <form  onsubmit="sendEmail(); reset(); return false;">
+                            <h3>Full Name / Organisation</h3>
+                            <input type="text" id="name">
+                            <h3>Mail</h3>
+                            <input type="text" id="mailfrom">
+                            <h3>Subject</h3>
+                            <input type="text" id="subject">
+                            <h3>Message</h3>
+                            <textarea id="message"></textarea>
+                            <button>Send</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div id="footer1">
+            <div class="logo1-container1">
+                <img src="assets/warshablackblacklogo.svg" class="logo1">
+            </div>
+            <div class="footer-text1">
+                <h1>All Right Reserved Warsha 2023</h1>
+            </div>
+            <div class="social-icons1">
+                <a href="mailto:warsha.algeria@gmail.com" target="_blank">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/warsha-%D9%88%D8%B1%D8%B4%D8%A9/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://www.facebook.com/warsha.algerie/" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/warsha.algerie/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    </body>
+
+</html>
